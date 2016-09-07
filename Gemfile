@@ -1,2 +1,2 @@
-require 'sinatra'
-require 'json'
+gem 'sinatra'
+gem 'json'
