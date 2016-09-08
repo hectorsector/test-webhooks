@@ -6,7 +6,7 @@ jsontest = "none"
 post '/payload' do
   push = JSON.parse(request.body.read)
   puts "I got some JSON: #{push.inspect}"
-  jsontest = "got some!"
+  jsontest = "I got some JSON: #{push.inspect}"
 end
 
 get '/' do
