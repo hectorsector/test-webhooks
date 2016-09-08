@@ -9,6 +9,6 @@ post '/payload' do
   jsontest = "got some!"
 end
 
-get '/payload' do
+get '/' do
   jsontest
 end
